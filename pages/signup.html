@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../CSS/signup.css" />
+  </head>
+  <body>
+    <section>
+      <div class="section">
+        <h1>Sign Up</h1>
+        <div class="parent">
+          <form id="signupForm">
+            <!-- Ensure this ID matches the one in JS -->
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+            />
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <input
+              type="password"
+              id="confirm"
+              placeholder="Confirm Your Password"
+              required
+            />
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+        <p class="para" style="color: #fff">Already have an account?</p>
+        <a
+          href="../pages/signin.html"
+          class="link"
+          style="color: #bf297b; text-decoration: none"
+          >Sign In</a
+        >
+        <div class="message"></div>
+      </div>
+    </section>
+    <script src="../JS/signup.js"></script>
+  </body>
+</html>
