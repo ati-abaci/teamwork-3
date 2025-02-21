@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("../images/_uhdbirdseyeview475.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(26, 92, 110, 0.863);
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.701);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ecece7;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #bf297b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #09cbdc;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(213, 28, 28);
+}

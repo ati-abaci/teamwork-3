@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url("../images/_uhdbirdseyeview475.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: rgba(26, 92, 110, 0.863);
+  width: 600px !important;
+}
+.first-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  padding-top: 20px;
+}
+input {
+  height: 70px !important;
+}
+.first-h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+select {
+  width: 300px !important;
+  padding-bottom: 20px;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  gap: 10px;
+}
+.last-button {
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: #bf297b !important;
+  border: none !important;
+}

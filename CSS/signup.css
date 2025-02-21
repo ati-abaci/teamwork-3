@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("../images/_uhdbirdseyeview475.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(26, 92, 110, 0.863);
+  border-radius: 50px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding: 100px;
+  box-sizing: border-box;
+  /* margin-left: 600px; */
+}
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.parent {
+  margin-top: 40px;
+}
+button {
+  background-color: #bf297b;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: #09cbdc;
+}
+input {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.message {
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 90%;
+  }
+
+  input,
+  button {
+    height: 35px;
+  }
+}

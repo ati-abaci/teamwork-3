@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f8fb !important;
+}
+.container{
+    background-color: white;
+    width: 600px !important;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px !important;
+    padding: 15px;
+}
+th{
+    background-color: rgb(73, 146, 255) !important;
+}
+button{
+    margin-bottom: 20px !important;
+}
