@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the color</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>guess the color</h1>
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy (6 colors, 6 slots)</option>
+            <option value="medium">Medium (6 colors, 8 slots)</option>
+            <option value="hard">Hard (6 colors, 10 slots)</option>
+        </select>
+        <div id="colorPalette"></div>
+        <div id="selectedColors"></div>
+        <button id="submitGuess">Submit Guess</button>
+        <button id="restartGame">Restart Game</button>
+        <div id="attempts"></div>
+        <div id="feedback"></div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
